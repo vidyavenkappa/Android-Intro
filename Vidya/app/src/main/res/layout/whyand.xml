@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="I chose Android because its vast domain which is growing rapidly.It has immense scope which attracts me to it.Working on Android would be a new experience which I am looking forward to "
+        android:id="@+id/textView6"
+        android:layout_weight="0.05"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_margin="30dp" />
+
+    <ImageView
+        android:layout_width="354dp"
+        android:layout_height="191dp"
+        android:id="@+id/imageView3"
+        android:src="@drawable/dow"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp" />
+
+</LinearLayout>
